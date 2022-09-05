@@ -1,0 +1,118 @@
+/* GENERAL STYLES */
+
+body {
+    height: 100%;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+a {
+    color: black;
+    text-decoration-line: none;;
+}
+
+a:hover {
+    color: rgb(121,202,211)
+}
+
+/* HEADER & TOP NAV */
+
+h1 {
+    color: black;
+    text-align: center;
+}
+
+#logo {
+    background-color: rgb(121,202,211);
+    padding: 30px 0;
+    margin: 0;
+}
+
+h1 a:hover {
+    color: rgb(245,245,245)
+}
+
+ul {
+    list-style: none;
+}
+
+header li {
+    float: left; 
+    width: 30%;
+    text-align: center;
+}
+
+header::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* FORM */
+
+form {
+    position: relative;
+    padding: 50px 445px;
+}
+
+form * {
+    margin: 20px 0;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="email"], textarea {
+    width: 100%;
+}
+
+#submit-button {
+    background-color: rgb(245,245,245);
+    border-color: rgb(121,202,211);
+    border-radius: 30px;
+    padding: 15px 30px;
+    font-weight: bold;
+}
+
+
+
+/* FOOTER */
+
+footer {
+    height: 120px;
+    width: 100%;
+    background-color: rgb(121,202,211); 
+}
+
+footer a:hover {
+    color: white;
+}
+
+#footer-nav {
+    float: right;
+    padding-right: 20px;
+}
+
+#footer-nav {
+    text-align: right;
+}
+
+#address {
+    float: left;
+    padding-left: 20px;
+}
+
+#socials {
+    content: "";
+    display: block;
+    clear: both;
+    padding: 0 44%;
+    
+}
+
+#socials * {
+    width: 30px;
+}
+
+
